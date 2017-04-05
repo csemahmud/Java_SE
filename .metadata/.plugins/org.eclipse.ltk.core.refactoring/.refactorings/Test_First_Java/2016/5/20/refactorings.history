@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.mahmud.Test_Fisrt_JavaPackage.Main&apos; to &apos;MainProgram&apos;&#x0D;&#x0A;- Original project: &apos;Test_First_Java&apos;&#x0D;&#x0A;- Original element: &apos;com.mahmud.Test_Fisrt_JavaPackage.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;com.mahmud.Test_Fisrt_JavaPackage.MainProgram&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.mahmud.Test_Fisrt_JavaPackage{Main.java[Main" matchStrategy="1" name="MainProgram" qualified="false" references="true" similarDeclarations="false" stamp="1463176299954" textual="false" version="1.0"/>
+</session>

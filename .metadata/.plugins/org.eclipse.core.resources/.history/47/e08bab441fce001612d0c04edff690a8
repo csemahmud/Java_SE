@@ -1,0 +1,71 @@
+/**
+ * 
+ */
+package com.mahmud.NS02FormatAppPackage;
+
+import java.util.Calendar;
+import java.util.Locale;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\n\n");
+		
+		Float floatVar = 10.5f;
+		Integer intVar = 10;
+		String stringVar = "\"Ten\"";
+		
+		System.out.format(Locale.FRANCE,
+			    "\tThe value of the float " 
+	    		+ "variable is %f,%n\twhile the " +
+			    "value of the integer variable " 
+	    		+ "is %d,%n\tand the string is %s%n%n", 
+			    floatVar, intVar, stringVar);
+		
+		long numLong = 461012;
+		System.out.format("\tnumLong = %d%n", numLong);      //  -->  "461012"
+		System.out.format("\tnumLong = %08d%n", numLong);    //  -->  "00461012"
+		System.out.format("\tnumLong = %+8d%n", numLong);    //  -->  " +461012"
+		System.out.format("\tnumLong = %,8d%n", numLong);    // -->  " 461,012"
+		System.out.format("\tnumLong = %+,8d%n%n", numLong); //  -->  "+461,012"
+	     
+		double pi = Math.PI;
+	
+		System.out.format("\tpi = %f;%n", pi);       // -->  "3.141593"
+		System.out.format("\tpi = %.3f;%n", pi);     // -->  "3.142"
+		System.out.format("\tpi = %10.3f;%n", pi);   // -->  "     3.142"
+		System.out.format("\tpi = %-10.3f;%n", pi);  // -->  "3.142"
+		System.out.format(Locale.FRANCE,
+				"\tpi = %-10.4f;%n%n", pi); // -->  "3,1416"
+	
+		Calendar calendar = Calendar.getInstance();
+		System.out.format("\t%tB %te, %tY%n", 
+				calendar, calendar, calendar); // -->  "May 29, 2006"
+	
+		System.out.format("\t%tl:%tM %tp%n", 
+				calendar, calendar, calendar);  // -->  "2:34 pm"
+	
+		System.out.format("\t%tH:%tM %tp%n", 
+				calendar, calendar, calendar);  // -->  "14:34"
+	
+		System.out.format("\t%tD%n", calendar);    // -->  "05/29/06"
+
+	}
+
+}

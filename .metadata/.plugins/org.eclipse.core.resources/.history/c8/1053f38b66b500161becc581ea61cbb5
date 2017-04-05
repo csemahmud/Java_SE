@@ -1,0 +1,66 @@
+/**
+ * 
+ */
+package com.mahmud.BFS_DFSAppPackage;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+	
+	boolean[][] duGraph;
+	/// duGraph[0 : totalVertices-1][0 : totalVertices-1] has been
+	/// declared as a global variable. So, all the
+	/// vertices are assigned 0. That is,
+	/// All vertices have been marked unvisited.
+
+	int[] visitedBFS;
+	int[] visitedDFS;
+	long totalVertices;
+
+	///* Algorithm : BASIC TRAVERSAL TECHNIQUES */
+	///* Problem : Depth First Search */
+	///* Author : Mahmudul Hasan Khan CSE */
+
+	void DFS(long currentVertex)
+
+	/// Given an undirected or directed graph,
+	/// duGraph[0 : totalVertices-1][0 : totalVertices-1] = (V, E) with
+	/// totalVertices numbered vertices with
+	/// an array visitedDFS[] initially set
+	/// to zero, this algorithm visits all vertices
+	/// reachable from currentVertex.
+	/// duGraph[0 : totalVertices-1][0 : totalVertices-1]
+	/// and visitedDFS[] are global
+
+	{
+		printf("\t%llu,", currentVertex + 1);
+		visitedDFS[currentVertex] = 1;
+		for (long adjacentVertex = 0;
+			adjacentVertex < totalVertices; adjacentVertex++)
+		{
+			if ((duGraph[currentVertex][adjacentVertex])
+				&& (visitedDFS[adjacentVertex] == 0))
+			{
+				DFS(adjacentVertex);
+			}
+		}
+	}
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

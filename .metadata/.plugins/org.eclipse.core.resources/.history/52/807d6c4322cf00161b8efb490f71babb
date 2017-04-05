@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package com.mahmud.NS06NumStrAppPackage;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("\n\n\n\tEnter a number : ");
+
+		try {
+			Double num1 = scanner.nextDouble();
+		} catch (InputMismatchException ex) {
+			// TODO: handle exception
+			
+			System.err.println(
+					"Error : \n\tEnter Numeric Value Only !!!");
+		}
+	}
+
+}

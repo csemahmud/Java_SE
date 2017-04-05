@@ -1,0 +1,70 @@
+/**
+ * 
+ */
+package com.mahmud.NS05StringsAppPackage;
+
+import java.util.Locale;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String string = "Hello, ".concat("I am Mahmud !!!");
+        int length = string.length();
+        char[] tempCharArray = new char[length];
+        char[] reverseCharArray = new char[length];
+        
+        // put original string in an 
+        // array of chars
+        string.getChars(0, length, tempCharArray, 0); 
+        
+        // reverse array of chars
+        for (int j = 0; j < length; j++) {
+            reverseCharArray[j] =
+                tempCharArray[length - 1 - j];
+        }
+        
+        String reverseString =
+            new String(reverseCharArray);
+        System.out.println("\n\n\n\t" + reverseString);
+        System.out.println("\n\tSubstring : " 
+        		+ string.substring(string.indexOf('M')));
+        System.out.println("\tSubstring : " 
+        		+ string.substring(string.indexOf('M'), string.indexOf('d') + 1));
+        System.out.println("\t" + string.toLowerCase());
+        System.out.println("\t" + string.toUpperCase());
+        System.out.println("\t" + string);
+        
+        Float floatVar = 10.5f;
+		Integer intVar = 10;
+		String stringVar = "\"Ten\"";
+		
+		String formattedString 
+			= String.format(Locale.FRANCE,
+			    "\tThe value of the float " 
+	    		+ "variable is %f,%n\twhile the " +
+			    "value of the integer variable " 
+	    		+ "is %d,%n\tand the string is %s%n%n", 
+			    floatVar, intVar, stringVar);
+		
+		System.out.println();
+		System.out.println(formattedString);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/OC025Ch02Q05/src/com/mahmud/OC025Ch02Q05Pkg/Hawk.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.mahmud.OC025Ch02Q05Pkg.Hawk"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="OC025Ch02Q05"/>
+</launchConfiguration>

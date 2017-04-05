@@ -1,0 +1,49 @@
+/**
+ * 
+ */
+package com.mahmud.NS05StringsAppPackage;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String string = "Hello, I am Mahmud !!!";
+        int length = palindrome.length();
+        char[] tempCharArray = new char[length];
+        char[] reverseCharArray = new char[length];
+        
+        // put original string in an 
+        // array of chars
+        for (int i = 0; i < length; i++) {
+            tempCharArray[i] = 
+                palindrome.charAt(i);
+        } 
+        
+        // reverse array of chars
+        for (int j = 0; j < length; j++) {
+            reverseCharArray[j] =
+                tempCharArray[length - 1 - j];
+        }
+        
+        String reversePalindrome =
+            new String(reverseCharArray);
+        System.out.println(reversePalindrome);
+
+	}
+
+}

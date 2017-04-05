@@ -1,0 +1,4 @@
+com\mahmud\web\SampleMavenWildFlyApp\rest\MemberResourceRESTService.class
+com\mahmud\web\SampleMavenWildFlyApp\util\WebResources.class
+com\mahmud\web\SampleMavenWildFlyApp\rest\JaxRsActivator.class
+com\mahmud\web\SampleMavenWildFlyApp\controller\MemberController.class

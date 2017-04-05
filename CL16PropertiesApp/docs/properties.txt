@@ -1,0 +1,4 @@
+#Sample Properties
+#Mon Feb 06 23:10:58 BDT 2017
+color=red
+width=200

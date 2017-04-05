@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package OC044Q2_934Pkg.classes;
+
+/**
+ * @author csema_000
+ *
+ */
+public class SuperClass {
+
+	private String textData;
+	private integer numData;
+	
+	/**
+	 * 
+	 */
+	public SuperClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

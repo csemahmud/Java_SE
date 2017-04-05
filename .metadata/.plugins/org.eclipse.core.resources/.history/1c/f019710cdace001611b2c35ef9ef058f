@@ -1,0 +1,63 @@
+/**
+ * 
+ */
+package com.mahmud.NS04CharacterAppPackage;
+
+import javax.swing.text.ChangedCharSetException;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char[] charArray = { 'S', 'h', 'e', ' ',  
+				's', 'a', 'i', 'd', ' ', 
+				'\"', 'H', 'l', 'l', 'o', '!', '\"', ' ',
+				't', 'o', ' ', 'm', 'e', '.', '\n',
+				'\t', 'C', 'O', 'D', 'E',  ':',
+				'3', '5', '\u03A9'};
+		
+		String string = "";
+		
+		for (char ch : charArray) {
+			Character character = new Character(ch);
+			System.out.print("\t" + Character.toUpperCase(character)
+					+ " -> " + Character.toLowerCase(character) + " : ");
+			if(Character.isLetter(character)){
+				System.out.print("Letter ");
+			}
+			
+			if(Character.isDigit(character)){
+				System.out.print("Digit ");
+			}
+			
+			if(Character.isWhitespace(character)){
+				System.out.print("Whitespace ");
+			}
+			
+			if(Character.isUpperCase(character)){
+				System.out.print("UpperCase ");
+			}
+			
+			if(Character.isLowerCase(character)){
+				System.out.print("UpperCase ");
+			}
+		}
+
+	}
+
+}

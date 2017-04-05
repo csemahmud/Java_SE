@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MainProgram.java&apos; to &apos;RE08MethodsApp/src/com.mahmud.RE08MethodsAppPackage&apos;&#x0D;&#x0A;- Original project: &apos;RE07BMatcherApp&apos;&#x0D;&#x0A;- Destination element: &apos;RE08MethodsApp/src/com.mahmud.RE08MethodsAppPackage&apos;&#x0D;&#x0A;- Original element: &apos;com.mahmud.RE07BMatcherAppPackage.MainProgram.java&apos;" description="Copy compilation unit" destination="=RE08MethodsApp/src&lt;com.mahmud.RE08MethodsAppPackage" element1="/src&lt;com.mahmud.RE07BMatcherAppPackage{MainProgram.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1483480787073" units="1" version="1.0"/>
+</session>

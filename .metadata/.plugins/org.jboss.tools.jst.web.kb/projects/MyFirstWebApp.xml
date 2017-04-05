@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/csema_000/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final-wildfly-1/arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final-wildfly-1/arquillian-config-impl-base-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.8/jboss-jsf-api_2.2_spec-2.2.8.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-container/1.1.2.Final-wildfly-1/arquillian-junit-container-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final-wildfly-1/arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final-wildfly-1/arquillian-test-spi-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.2_spec/1.0.0.Final/jboss-annotations-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/hibernate/hibernate-validator-annotation-processor/5.1.3.Final/hibernate-validator-annotation-processor-5.1.3.Final.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final-wildfly-1/arquillian-container-spi-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final-wildfly-1/arquillian-container-test-impl-base-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final-wildfly-1/arquillian-core-spi-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final-wildfly-1/arquillian-test-api-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final-wildfly-1/arquillian-container-test-spi-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final-wildfly-1/arquillian-core-api-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final-wildfly-1/arquillian-junit-core-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final-wildfly-1/arquillian-container-test-api-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.2_spec/1.0.0.Final/jboss-ejb-api_3.2_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/hibernate/hibernate-jpamodelgen/4.3.5.Final/hibernate-jpamodelgen-4.3.5.Final.jar"/>
+  <path value="/MyFirstWebApp/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="MyFirstWebApp"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/csema_000/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final-wildfly-1/arquillian-config-api-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/resteasy/jaxrs-api/3.0.10.Final/jaxrs-api-3.0.10.Final.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.2.Final-wildfly-1/arquillian-protocol-servlet-1.1.2.Final-wildfly-1.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final-wildfly-1/arquillian-test-impl-base-1.1.2.Final-wildfly-1.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;%2;%3;" path="%0"/>
+   <linked-resource declaration="true" name="%5;" path="%4"/>
+   <linked-resource declaration="true" name="%6;%7;" path="%3"/>
+   <linked-resource name="%1;%0;%2;%9;%3;" path="%8"/>
+   <linked-resource name="%1;%4;" path="%9"/>
+  </core>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="27" name="%6" offset="2161" path="%10"/>
+   <linked-el length="21" name="%6" offset="1932" path="%11"/>
+   <linked-el length="20" name="%6" offset="1739" path="%11"/>
+   <linked-el length="27" name="%6" offset="2161" path="%11"/>
+   <linked-el length="20" name="%6" offset="1739" path="%10"/>
+   <linked-el length="21" name="%6" offset="1932" path="%10"/>
+   <linked-el length="37" name="%12" offset="3933" path="%11"/>
+   <linked-el length="51" name="%12" offset="3723" path="%11"/>
+   <linked-el length="37" name="%12" offset="3933" path="%10"/>
+   <linked-el length="51" name="%12" offset="3723" path="%10"/>
+   <linked-el length="52" name="%13" offset="3534" path="%11"/>
+   <linked-el length="21" name="%13" offset="1932" path="%11"/>
+   <linked-el length="45" name="%13" offset="3263" path="%10"/>
+   <linked-el length="27" name="%13" offset="3775" path="%10"/>
+   <linked-el length="20" name="%13" offset="1739" path="%11"/>
+   <linked-el length="51" name="%13" offset="3723" path="%11"/>
+   <linked-el length="46" name="%13" offset="3397" path="%10"/>
+   <linked-el length="46" name="%13" offset="3397" path="%11"/>
+   <linked-el length="52" name="%13" offset="3534" path="%10"/>
+   <linked-el length="20" name="%13" offset="1739" path="%10"/>
+   <linked-el length="21" name="%13" offset="1932" path="%10"/>
+   <linked-el length="51" name="%13" offset="3723" path="%10"/>
+   <linked-el length="45" name="%13" offset="3263" path="%11"/>
+   <linked-el length="27" name="%13" offset="3775" path="%11"/>
+   <linked-el length="27" name="%13" offset="2161" path="%10"/>
+   <linked-el length="43" name="%13" offset="3132" path="%11"/>
+   <linked-el length="27" name="%13" offset="2161" path="%11"/>
+   <linked-el length="43" name="%13" offset="3132" path="%10"/>
+   <linked-el length="55" name="%7" offset="2428" path="%11"/>
+   <linked-el length="55" name="%7" offset="2428" path="%10"/>
+   <linked-el length="25" name="%5" offset="2958" path="%11"/>
+   <linked-el length="52" name="%5" offset="3534" path="%11"/>
+   <linked-el length="18" name="%5" offset="2829" path="%11"/>
+   <linked-el length="45" name="%5" offset="3263" path="%10"/>
+   <linked-el length="27" name="%5" offset="3775" path="%10"/>
+   <linked-el length="51" name="%5" offset="3723" path="%11"/>
+   <linked-el length="46" name="%5" offset="3397" path="%10"/>
+   <linked-el length="46" name="%5" offset="3397" path="%11"/>
+   <linked-el length="18" name="%5" offset="2829" path="%10"/>
+   <linked-el length="52" name="%5" offset="3534" path="%10"/>
+   <linked-el length="25" name="%5" offset="2958" path="%10"/>
+   <linked-el length="51" name="%5" offset="3723" path="%10"/>
+   <linked-el length="45" name="%5" offset="3263" path="%11"/>
+   <linked-el length="27" name="%5" offset="3775" path="%11"/>
+   <linked-el length="43" name="%5" offset="3132" path="%11"/>
+   <linked-el length="35" name="%5" offset="2992" path="%10"/>
+   <linked-el length="43" name="%5" offset="3132" path="%10"/>
+   <linked-el length="35" name="%5" offset="2992" path="%11"/>
+   <linked-el length="37" name="%14" offset="3933" path="%11"/>
+   <linked-el length="51" name="%14" offset="3723" path="%11"/>
+   <linked-el length="37" name="%14" offset="3933" path="%10"/>
+   <linked-el length="51" name="%14" offset="3723" path="%10"/>
+   <linked-el length="25" name="%4" offset="2958" path="%11"/>
+   <linked-el length="18" name="%4" offset="2829" path="%11"/>
+   <linked-el length="35" name="%4" offset="2992" path="%10"/>
+   <linked-el length="18" name="%4" offset="2829" path="%10"/>
+   <linked-el length="25" name="%4" offset="2958" path="%10"/>
+   <linked-el length="35" name="%4" offset="2992" path="%11"/>
+   <linked-el length="27" name="%3" offset="2161" path="%10"/>
+   <linked-el length="21" name="%3" offset="1932" path="%11"/>
+   <linked-el length="55" name="%3" offset="2428" path="%11"/>
+   <linked-el length="20" name="%3" offset="1739" path="%11"/>
+   <linked-el length="27" name="%3" offset="2161" path="%11"/>
+   <linked-el length="20" name="%3" offset="1739" path="%10"/>
+   <linked-el length="21" name="%3" offset="1932" path="%10"/>
+   <linked-el length="55" name="%3" offset="2428" path="%10"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="request" value="%12"/>
+  <alias
+   path="/MyFirstWebApp/src/test/java/com/mahmud/web/MyFirstWebApp/test/MemberRegistrationTest.java" value="%2"/>
+  <alias
+   path="/MyFirstWebApp/src/main/java/com/mahmud/web/MyFirstWebApp/model/Member.java" value="%13"/>
+  <alias path="/MyFirstWebApp/src/main/webapp/index2.xhtml" value="%10"/>
+  <alias
+   path="/MyFirstWebApp/src/main/java/com/mahmud/web/MyFirstWebApp/data/MemberRepository.java" value="%9"/>
+  <alias
+   path="/MyFirstWebApp/src/main/java/com/mahmud/web/MyFirstWebApp/util/Resources.java" value="%8"/>
+  <alias path="newMember" value="%6"/>
+  <alias
+   path="/MyFirstWebApp/src/main/java/com/mahmud/web/MyFirstWebApp/rest/MemberResourceRESTService.java" value="%1"/>
+  <alias path="/MyFirstWebApp/src/main/webapp/index1.xhtml" value="%11"/>
+  <alias
+   path="/MyFirstWebApp/src/main/java/com/mahmud/web/MyFirstWebApp/service/MemberRegistration.java" value="%0"/>
+  <alias path="members" value="%5"/>
+  <alias path="memberController" value="%7"/>
+  <alias path="request.contextPath" value="%14"/>
+  <alias
+   path="/MyFirstWebApp/src/main/java/com/mahmud/web/MyFirstWebApp/data/MemberListProducer.java" value="%4"/>
+  <alias
+   path="/MyFirstWebApp/src/main/java/com/mahmud/web/MyFirstWebApp/controller/MemberController.java" value="%3"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

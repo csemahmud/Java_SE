@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="F:/Mahmud_Java_Workspace/SE/MySecondWebApp/target/endorsed/javaee-endorsed-api-7.0.jar"/>
+  <path value="C:/Users/csema_000/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="35" name="%0" offset="520" path="%1"/>
+   <linked-el length="15" name="%2" offset="2314" path="%1"/>
+   <linked-el length="15" name="%2" offset="1340" path="%1"/>
+   <linked-el length="35" name="%3" offset="520" path="%1"/>
+   <linked-el length="35" name="%4" offset="520" path="%1"/>
+   <linked-el length="15" name="%5" offset="2314" path="%1"/>
+   <linked-el length="15" name="%5" offset="1340" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="project.build.directory" value="%0"/>
+  <alias
+   path="/MySecondWebApp/target/m2e-wtp/web-resources/META-INF/maven/com.mahmud.web/MySecondWebApp/pom.xml" value="%1"/>
+  <alias path="endorsed.dir" value="%2"/>
+  <alias path="project" value="%3"/>
+  <alias path="project.build" value="%4"/>
+  <alias path="endorsed" value="%5"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MainProgram.java&apos; to &apos;RE11NameDateApp/src/com.mahmud.RE11NameDateAppPackage&apos;&#x0D;&#x0A;- Original project: &apos;RE06ababaaaabApp&apos;&#x0D;&#x0A;- Destination element: &apos;RE11NameDateApp/src/com.mahmud.RE11NameDateAppPackage&apos;&#x0D;&#x0A;- Original element: &apos;com.mahmud.RE06ababaaaabAppPackage.MainProgram.java&apos;" description="Copy compilation unit" destination="=RE11NameDateApp/src&lt;com.mahmud.RE11NameDateAppPackage" element1="/src&lt;com.mahmud.RE06ababaaaabAppPackage{MainProgram.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1486755817366" units="1" version="1.0"/>
+</session>

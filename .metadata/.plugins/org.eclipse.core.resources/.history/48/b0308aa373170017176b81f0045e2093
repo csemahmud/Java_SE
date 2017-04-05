@@ -1,0 +1,66 @@
+/**
+ * 
+ */
+package OC044Q2_934Pkg.classes;
+
+/**
+ * @author csema_000
+ *
+ */
+public class SuperClass {
+
+	private String textData;
+	private int numData;
+	
+	/**
+	 * @param textData
+	 */
+	protected SuperClass(String textData) {
+		super();
+		this.textData = textData;
+	}
+
+	/**
+	 * @param numData
+	 */
+	private SuperClass(int numData) {
+		super();
+		this.numData = numData;
+	}
+
+	/**
+	 * 
+	 */
+	private SuperClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @return the textData
+	 */
+	public synchronized final String getTextData() {
+		return textData;
+	}
+
+	/**
+	 * @param textData the textData to set
+	 */
+	public synchronized final void setTextData(String textData) {
+		this.textData = textData;
+	}
+
+	/**
+	 * @return the numData
+	 */
+	public synchronized final int getNumData() {
+		return numData;
+	}
+
+	/**
+	 * @param numData the numData to set
+	 */
+	public synchronized final void setNumData(int numData) {
+		this.numData = numData;
+	}
+
+}

@@ -1,0 +1,30 @@
+About the Authors
+Kathy Sierra was a lead developer for the SCJP exam for Java 5 and Java 6. Sierra
+worked as a Sun "master trainer," and in 1997, founded JavaRanch.com, the world's
+largest Java community website. Her bestselling Java books have won multiple
+Software Development Magazine awards, and she is a founding member of Sun's Java
+Champions program.
+Bert Bates was a lead developer for many of Sun's Java certification exams including
+the SCJP for Java 5 and Java 6. He is also a forum moderator on JavaRanch.com, and
+has been developing software for more than 20 years. Bert is the co-author of several
+bestselling Java books, and he's a founding member of Sun's Java Champions program.
+About the Technical Review Team
+Johannes de Jong has been the leader of our technical review teams for ever and
+ever. (He has more patience than any three people we know.) For this book, he led
+our biggest team ever. Our sincere thanks go out to the following volunteers who
+were knowledgeable, diligent, patient, and picky, picky, picky!
+Rob Ross, Nicholas Cheung, Jane Griscti, Ilja Preuss, Vincent Brabant, Kudret
+Serin, Bill Seipel, Jing Yi, Ginu Jacob George, Radiya, LuAnn Mazza, Anshu Mishra,
+Anandhi Navaneethakrishnan, Didier Varon, Mary McCartney, Harsha Pherwani,
+Abhishek Misra, and Suman Das.
+About LearnKey
+LearnKey provides self-paced learning content and multimedia delivery solutions to
+enhance personal skills and business productivity. LearnKey claims the largest library
+of rich streaming-media training content that engages learners in dynamic media-rich
+instruction complete with video clips, audio, full motion graphics, and animated
+illustrations. LearnKey can be found on the Web at www.LearnKey.com.
+test : rof , fro , dan , vaJa , fo .
+test : rOf , Fro , dAn , Vaja , Fo .
+test : rOf , Fro , dAn , Vaja , Fo .
+test : rOf , Fro , dAn , Vaja , Fo .
+test : rOf , Fro , dAn , Vaja , Fo .

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.mahmud.NS07DemoFileAppPackage.classes;
+
+/**
+ * @author csema_000
+ *
+ */
+public class Filename {
+
+	/**
+	 * 
+	 */
+	public Filename() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

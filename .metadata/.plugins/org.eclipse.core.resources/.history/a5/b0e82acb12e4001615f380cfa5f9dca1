@@ -1,0 +1,54 @@
+/**
+ * 
+ */
+package com.mahmud.EX01IndexOutAppPackage;
+
+import java.sql.SQLException;
+
+import com.mahmud.EX01IndexOutAppPackage.classes.ListOfNumbers;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\n\n");
+		
+		ListOfNumbers listOfNumbers = new ListOfNumbers();
+		String pathFileStr = "docs/num_list.txt";
+		try {
+			
+			listOfNumbers.writeList(pathFileStr);
+			
+		} catch (SQLException ex) {
+			// TODO Auto-generated catch block
+			ex.printStackTrace();
+		}
+		
+		System.out.println(readFirstLineFromFile(pathFileStr));
+
+	}
+
+	private static String readFirstLineFromFile(String pathFileStr) {
+		// TODO Auto-generated method stub
+		try (BufferedReader br =
+                new BufferedReader(new FileReader(path))) {
+			return br.readLine();
+			}
+	}
+
+}

@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package OC044Q2_934Pkg.classes;
+
+/**
+ * @author csema_000
+ *
+ */
+public class SuperClass {
+
+	private String textData;
+	private int numData;
+	
+	/**
+	 * @param textData
+	 */
+	protected SuperClass(String textData) {
+		super();
+		this.textData = textData;
+	}
+
+	/**
+	 * @param numData
+	 */
+	protected SuperClass(int numData) {
+		super();
+		this.numData = numData;
+	}
+
+	/**
+	 * 
+	 */
+	private SuperClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

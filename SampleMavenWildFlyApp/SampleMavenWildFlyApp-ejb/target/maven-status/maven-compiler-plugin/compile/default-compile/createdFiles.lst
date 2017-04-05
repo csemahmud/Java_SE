@@ -1,0 +1,5 @@
+com\mahmud\web\SampleMavenWildFlyApp\service\MemberRegistration.class
+com\mahmud\web\SampleMavenWildFlyApp\data\MemberRepository.class
+com\mahmud\web\SampleMavenWildFlyApp\model\Member.class
+com\mahmud\web\SampleMavenWildFlyApp\data\MemberListProducer.class
+com\mahmud\web\SampleMavenWildFlyApp\util\Resources.class

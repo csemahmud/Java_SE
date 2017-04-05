@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.mahmud.NS07DemoFileAppPackage.classes;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class Filename {
+	
+	private String fullPath;
+    private char pathSeparator, 
+                 extensionSeparator;
+
+	/**
+	 * 
+	 */
+	public Filename() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

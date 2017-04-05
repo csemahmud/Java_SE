@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package com.mahmud.NS10AutoBoxingAppPackage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\n\n");
+		
+		// List<integer> integerList = new ArrayList<>();
+
+	}
+
+}

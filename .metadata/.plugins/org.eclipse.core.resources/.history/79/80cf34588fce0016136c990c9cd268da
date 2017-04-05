@@ -1,0 +1,89 @@
+/**
+ * 
+ */
+package com.mahmud.NS03ArithmeticAppPackage;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\n\n");
+		
+		double numA = (-1) * Math.E;
+        double numB = Math.PI;
+        int numC = 16, numD = 45;
+
+        System.out.printf("\tThe absolute value " + "of %.3f is %.3f%n", 
+        		numA, Math.abs(numA));
+
+        System.out.printf("\tThe ceiling of " + "%.2f is %.0f%n", 
+        		numB, Math.ceil(numB));
+
+        System.out.printf("\tThe floor of " + "%.2f is %.0f%n", 
+        		numB, Math.floor(numB));
+
+        System.out.printf("\tThe rint of %.2f " + "is %.0f%n", 
+        		numB, Math.rint(numB));
+
+        System.out.printf("\tThe max of %d and " + "%d is %d%n",
+        		numC, numD, Math.max(numC, numD));
+
+        System.out.printf("\tThe min of of %d " + "and %d is %d%n",
+        		numC, numD, Math.min(numC, numD));
+		
+        System.out.println();
+        
+        double radians = Math.PI / (Math.round(Math.random() * 5) + 1);
+							// Generates value from 1 to 6 inclusive 
+		double degrees = Math.toDegrees(radians);
+        
+        System.out.format("\tThe value of pi " + "is %.4f%n",
+                           Math.PI);
+
+        System.out.format("\tThe sine of %.1f " + "degrees is %.4f%n",
+                          degrees, Math.sin(radians));
+
+        System.out.format("\tThe cosine of %.1f " + "degrees is %.4f%n",
+                          degrees, Math.cos(radians));
+
+        System.out.format("\tThe tangent of %.1f " + "degrees is %.4f%n",
+                          degrees, Math.tan(radians));
+
+        System.out.format("\tThe arcsine of %.4f " + "is %.4f degrees %n", 
+                          Math.sin(radians), 
+                          Math.toDegrees(Math.asin(Math.sin(radians))));
+
+        System.out.format("\tThe arccosine of %.4f " + "is %.4f degrees %n", 
+                          Math.cos(radians),  
+                          Math.toDegrees(Math.acos(Math.cos(radians))));
+
+        System.out.format("\tThe arctangent of %.4f " + "is %.4f degrees %n%n", 
+                          Math.tan(radians), 
+                          Math.toDegrees(Math.atan(Math.tan(radians))));
+        
+        double e10  = Math.pow(Math.E, 10);
+        System.out.format("\te to the power 10 = %f%n", e10);
+        System.out.format("\tln(%f) = %f%n", e10, Math.log(e10));
+        System.out.format("\tanti-ln(%f) = %f%n", 
+        		Math.log(e10), Math.exp(Math.log(e10)));
+        double tenP3 = Math.pow(10, 3);
+        System.out.format("\t10 to the power 10 = %f%n", e10);
+	}
+
+}

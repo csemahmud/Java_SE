@@ -1,0 +1,64 @@
+/**
+ * 
+ */
+package com.mahmud.NS01NumbersAppPackage;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\n\n");
+		Number number = new Double(Math.pow(Math.PI, Math.E));
+		Number number2 = new Integer(22);
+		Number number3 = new Integer(22);
+		String numString = new String("22");
+		String numStringH = new String("-0x3C");
+		String numStringH2 = new String("-3C");
+		String numStringD = new String("22.5");
+		
+		System.out.print("\tnumber = " + number);
+		System.out.print(";\tnumber2 = " + number2);
+		System.out.print(";\n\tnumber3 = " + number3);
+		System.out.print(";\n\tnumber2 == number3 : " + (number2 == number3));
+		System.out.print(";\tnumber2.equals(number3) : " + number2.equals(number3));
+		System.out.print(";\n\tnumber.byteValue() = " + number.byteValue());
+		System.out.print(";\tnumber.shortValue() = " + number.shortValue());
+		System.out.print(";\n\tnumber.intValue() = " + number.intValue());
+		System.out.print(";\t\tnumber.longValue() = " + number.longValue());
+		System.out.print(";\n\tnumber.floatValue() = " + number.floatValue());
+		System.out.print(";\n\tnumber.doubleValue() = " + number.doubleValue());
+		System.out.print(";\n\tnumber.hashCode() = " + number.hashCode());
+		System.out.print("\n\n\tnumString = " + numString);
+		System.out.print(";\tnumStringH = " + numStringH);
+		System.out.print(";\n\tnumStringH2 = " + numStringH2);
+		System.out.print(";\tnumStringD = " + numStringD);
+		System.out.print(";\n\tInteger.decode(numStringH) = " + Integer.decode(numStringH));
+		System.out.print(";\n\tInteger.parseInt(numString) = " + Integer.parseInt(numString));
+		System.out.print(";\n\tDouble.parseDouble(numStringD) = " + Double.parseDouble(numStringD));
+		System.out.print(";\n\tInteger.valueOf(numString) = " + Integer.valueOf(numString));
+		System.out.print(";\n\tInteger.valueOf(22) = " + Integer.valueOf(22));
+		System.out.print(";\tInteger.valueOf(numStringH2, 16) = " + Integer.valueOf(numStringH2, 16));
+		System.out.print(";\n\tDouble.valueOf(numStringD) = " + Double.valueOf(numStringD));
+		System.out.print(";\n\tDouble.valueOf(22.5) = " + Double.valueOf(22.5));
+		System.out.print(";\n\tCharacter.digit('D', 16) = " + Character.digit('D', 16));
+		System.out.print(";\tCharacter.forDigit(13, 16) = " + Character.forDigit(13, 16));
+		System.out.print(";\n\tCharacter.forDigit(60, 16) = " + Character.forDigit(60, 16));
+
+	}
+
+}

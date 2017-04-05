@@ -1,0 +1,272 @@
+/**
+ * 
+ */
+package com.mahmud.BFS_DFSAppPackage;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+	
+	private static boolean[][] duGraph;
+	/// duGraph[0 : totalVertices-1][0 : totalVertices-1] has been
+	/// declared as a global variable. So, all the
+	/// vertices are assigned 0. That is,
+	/// All vertices have been marked unvisited.
+
+	private static boolean[] visitedBFS;
+	private static boolean[] visitedDFS;
+	private static int totalVertices;
+
+	///* Algorithm : BASIC TRAVERSAL TECHNIQUES */
+	///* Problem : Depth First Search */
+	///* Author : Mahmudul Hasan Khan CSE */
+
+	private static void DFS(int currentVertex)
+
+	/// Given an undirected or directed graph,
+	/// duGraph[0 : totalVertices-1][0 : totalVertices-1] = (V, E) with
+	/// totalVertices numbered vertices with
+	/// an array visitedDFS[] initially set
+	/// to false, this algorithm visits all vertices
+	/// reachable from currentVertex.
+	/// duGraph[0 : totalVertices-1][0 : totalVertices-1]
+	/// and visitedDFS[] are global
+
+	{
+		System.out.print(currentVertex + 1);
+		visitedDFS[currentVertex] = true;
+		for (int adjacentVertex = 0;
+			adjacentVertex < totalVertices; adjacentVertex++) {
+			if ((duGraph[currentVertex][adjacentVertex])
+				&& (!visitedDFS[adjacentVertex]))
+			{
+				DFS(adjacentVertex);
+			}
+		}
+	}
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		duGraph = new boolean[10000][10000];
+		visitedBFS = new boolean[10000];
+		visitedDFS = new boolean[10000];
+		
+		boolean isDirected;
+		int i;
+
+		System.out.println("\n\n");
+
+		int row;
+		int col;
+		
+		///* Sample Input */
+		duGraph[1-1][2-1] = true;
+		duGraph[1-1][3-1] = true;
+		duGraph[1-1][4-1] = true;
+		duGraph[2-1][5-1] = true;
+		duGraph[5-1][6-1] = true;
+		duGraph[7-1][3-1] = true;
+		duGraph[7-1][4-1] = true;
+		duGraph[7-1][5-1] = true;
+		duGraph[8-1][7-1] = true;
+		totalVertices = 8;
+		isDirected = true;
+		
+		for(row = 0; row < totalVertices; row++){
+			
+			visitedBFS[row] = false;
+			/// Mark all vertices unvisited
+			
+			visitedDFS[row] = false;
+			/// Mark all vertices unvisited
+			
+			for(col = 0; col < totalVertices; col++){
+				duGraph[row][col] = false;
+			}
+		}
+
+		char key = 'Y';
+		while (Character.toLowerCase(key) == 'y')
+		{
+			/*System.out.println("\tIs this Graph Directed or Undirected ? Enter it : ");
+			System.out.println("\t1 for Undirected Graph Or, ");
+			System.out.print("\t2 for Directed Graph : ");
+			scanf("%d", &isDirected);
+			isDirected--;
+
+			switch (isDirected)
+			{
+			case 0:
+				printf("\n\tHow many Edges in this Undirected Graph ? Enter it : ");
+				break;
+			case 1:
+				printf("\n\tHow many Edges in this Directed Graph ? Enter it : ");
+				break;
+			}
+
+			unsigned long long edges;
+			totalVertices = 0;
+
+			scanf("%llu", &edges);
+
+			for (i = 0; i < edges; i++)
+			{
+				unsigned long long u;
+				unsigned long long v;
+
+				printf("\n\tFor Edge %llu, Enter Start Vertex, u : ", i + 1);
+				scanf("%llu", &u);
+				printf("\n\tEnter End Vertex, v : ");
+				scanf("%llu", &v);
+				if (totalVertices < u)
+				{
+					totalVertices = u;
+				}
+				if (totalVertices < v)
+				{
+					totalVertices = v;
+				}
+				u--;
+				v--;
+				duGraph[u][v] = 1;
+				if (isDirected == 0)
+				{
+					duGraph[v][u] = 1;
+				}
+			}*/
+
+			for (i = 0; i < totalVertices; i++)
+			{
+				duGraph[i][i] = true;
+			}
+
+			if (isDirected){
+				System.out.println("\tThe given DIRECTED Graph is : \n\n\t");
+			} else {
+				System.out.println("\n\tThe given DIRECTED Graph is : \n\n\t");
+			}
+
+			for (col = 1; col <= totalVertices; col++)
+			{
+				System.out.print("\t" + col );
+			}
+
+			for (row = 0; row < totalVertices; row++)
+			{
+				System.out.print("\n\t" + (row + 1));
+				for (col = 0; col < totalVertices; col++)
+				{
+					if(duGraph[row][col]){
+						System.out.print("\t1");
+					} else {
+						System.out.print("\t.");
+					}
+				}
+			}
+
+			System.out.println("\n\n\tIn above graph, row == Start Vertex and column == End Vertex.");
+
+			System.out.println("\n\tGraph Traversal of all vertices by : ");
+			System.out.println("\tBreadth First Search : ");
+
+			int vertex;
+
+			///* Algorithm : BASIC TRAVERSAL TECHNIQUES */
+			///* Problem : Breadth First Graph Traversal */
+			///* Author : Mahmudul Hasan Khan CSE */
+
+			/// Breadth First Traversal of duGraph
+
+			for (vertex = 0; vertex < totalVertices; vertex++)
+			{
+				if (!visitedBFS[vertex])
+				{
+
+					///* Algorithm : BASIC TRAVERSAL TECHNIQUES */
+					///* Problem : Breadth First Search */
+					///* Author : Mahmudul Hasan Khan CSE */
+
+					/// A breadth first search of duGraph is carried out beginning
+					/// at Vertex : vertex. For any node i, visitedBFS[i] = 1 if i has
+					/// already been visited. The graph duGraph and array visitedBFS[]
+					/// are global; visitedBFS[] is initialized to zero.
+
+					int currentVertex = vertex;
+
+					System.out.print("\t" + (vertex + 1));
+					visitedBFS[vertex] = true;
+
+					int[] vQueue = new int[10000];
+
+					/// vQueue[] is a queue of unexplored vertices.
+
+					int qFront = 0;
+					int qRear = 0;
+
+					while (true)
+					{
+
+						for (int adjacentVertex = 0;
+							adjacentVertex < totalVertices; adjacentVertex++)
+						{
+							if ((duGraph[currentVertex][adjacentVertex])
+								&& (!visitedBFS[adjacentVertex]))
+							{
+								/// adjacentVertex is unexplored
+
+								vQueue[qRear++] = adjacentVertex;
+
+								System.out.print("\t" + (adjacentVertex + 1));
+								visitedBFS[adjacentVertex] = true;
+							}
+						}
+
+						if (qFront == qRear)
+						{
+							/// vQueue is empty and no unexplored vertex
+
+							break;
+						}
+
+						currentVertex = vQueue[qFront++];
+
+						/// Get first unexplored vertex
+					}
+				}
+			}
+
+			System.out.println("\n\n\tDepth First Search : ");
+
+			///* Algorithm : BASIC TRAVERSAL TECHNIQUES */
+			///* Problem : Depth First Graph Traversal */
+			///* Author : Mahmudul Hasan Khan CSE */
+
+			/// Depth First Traversal of duGraph
+
+			for (vertex = 0; vertex < totalVertices; vertex++)
+			{
+				if (!visitedDFS[vertex])
+				{
+					DFS(vertex);
+				}
+			}
+			//printf("\n\n\tDo you want to try more ? [y/n] : ");
+			//key = _getche();
+			key = 'N';
+		}
+	}
+
+}

@@ -1,0 +1,63 @@
+/**
+ * 
+ */
+package com.mahmud.EX01IndexOutAppPackage;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.sql.SQLException;
+
+import com.mahmud.EX01IndexOutAppPackage.classes.ListOfNumbers;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("\n\n");
+		
+		ListOfNumbers listOfNumbers = new ListOfNumbers();
+		String pathFileStr = "docs/num_list.txt";
+		try {
+			
+			listOfNumbers.writeList(pathFileStr);
+			
+		} catch (SQLException ex) {
+			// TODO Auto-generated catch block
+			ex.printStackTrace();
+		}
+		
+		try {
+			System.out.println(readFirstLineFromFile(pathFileStr));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	private static String readFirstLineFromFile(String pathFileStr) throws FileNotFoundException, IOException {
+		// TODO Auto-generated method stub
+		try (BufferedReader br =
+                new BufferedReader(new FileReader(pathFileStr))) {
+			return br.readLine();
+			}
+	}
+
+}

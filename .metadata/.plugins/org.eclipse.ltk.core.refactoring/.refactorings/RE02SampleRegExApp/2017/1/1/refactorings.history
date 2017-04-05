@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MainProgram.java&apos; to &apos;RE03PredefinedCharApp/src/com.mahmud.RE03PredefinedCharAppPackage&apos;&#x0D;&#x0A;- Original project: &apos;RE02SampleRegExApp&apos;&#x0D;&#x0A;- Destination element: &apos;RE03PredefinedCharApp/src/com.mahmud.RE03PredefinedCharAppPackage&apos;&#x0D;&#x0A;- Original element: &apos;com.mahmud.RE02SampleRegExAppPackage.MainProgram.java&apos;" description="Copy compilation unit" destination="=RE03PredefinedCharApp/src&lt;com.mahmud.RE03PredefinedCharAppPackage" element1="/src&lt;com.mahmud.RE02SampleRegExAppPackage{MainProgram.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1483431979926" units="1" version="1.0"/>
+</session>

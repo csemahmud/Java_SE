@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IO16LinkApp/docs/mahmud/example/source.txt&apos; to &apos;new_link.txt&apos;" description="Rename resource &apos;source.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="docs/mahmud/example/source.txt" name="new_link.txt" stamp="1485168773608" updateReferences="true"/>
+</session>

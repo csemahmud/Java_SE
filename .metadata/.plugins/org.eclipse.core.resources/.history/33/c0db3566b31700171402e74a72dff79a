@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package OC045Q2_1021Pkg;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("\n\n");
+		String string = "hello";
+		StringBuilder stringBuilder
+			= new StringBuilder(string);
+		String reverseString;
+		
+		stringBuilder.reverse();
+		// reverseString = string.reverse();
+		// Compilation Error
+		// The method reverse() is undefined 
+		// for the type String
+	}
+
+}

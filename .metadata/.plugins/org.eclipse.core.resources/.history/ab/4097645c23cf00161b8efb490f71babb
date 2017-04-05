@@ -1,0 +1,60 @@
+/**
+ * 
+ */
+package com.mahmud.NS06NumStrAppPackage;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class MainProgram {
+
+	/**
+	 * 
+	 */
+	public MainProgram() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		try(Scanner scanner = new Scanner(System.in)) {
+			Double num1 = scanner.nextDouble();
+			System.out.print("\n\tEnter another number : ");
+			Double num2 = scanner.nextDouble();
+			
+			System.out.println("\n\t" + num1 + " + " + num2
+					+ " = " + (num1 + num2));
+			
+			System.out.println("\t" + num1 + " - " + num2
+					+ " = " + (num1 - num2));
+			
+			System.out.println("\t" + num1 + " * " + num2
+					+ " = " + (num1 * num2));
+			
+			System.out.println("\t" + num1 + " / " + num2
+					+ " = " + (num1 / num2));
+			
+			System.out.println("\t" + num1 + " % " + num2
+					+ " = " + (num1 % num2));
+			
+			System.out.print("\n\t");
+			
+			System.out.println(num1 + num2 + " : " + num1 + num2);
+			
+		} catch (InputMismatchException ex) {
+			// TODO: handle exception
+			
+			System.err.println(
+					"\n\tError : Enter Numeric Value Only !!!");
+		}
+	}
+
+}

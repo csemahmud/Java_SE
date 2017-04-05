@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CL08AnagramsApp/src/com/mahmud/CL08AnagramsAppPackage/MainProgram.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.mahmud.CL08AnagramsAppPackage.MainProgram"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CL08AnagramsApp"/>
+</launchConfiguration>

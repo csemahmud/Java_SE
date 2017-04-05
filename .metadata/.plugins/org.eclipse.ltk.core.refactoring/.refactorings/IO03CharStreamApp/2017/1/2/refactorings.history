@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MainProgram.java&apos; to &apos;IO05BufferedStreamApp/src/com.mahmud.IO05BufferedStreamAppPackage&apos;&#x0D;&#x0A;- Original project: &apos;IO03CharStreamApp&apos;&#x0D;&#x0A;- Destination element: &apos;IO05BufferedStreamApp/src/com.mahmud.IO05BufferedStreamAppPackage&apos;&#x0D;&#x0A;- Original element: &apos;com.mahmud.IO03CharStreamAppPackage.MainProgram.java&apos;" description="Copy compilation unit" destination="=IO05BufferedStreamApp/src&lt;com.mahmud.IO05BufferedStreamAppPackage" element1="/src&lt;com.mahmud.IO03CharStreamAppPackage{MainProgram.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1484409956586" units="1" version="1.0"/>
+</session>

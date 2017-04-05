@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+#container{
+	float: left;
+	width: 100%;
+	background-color: #cccccc;
+	color: #000033;
+}
+#container #content{
+	background-color: #663399;
+	color: #ffff00;
+	font-family: cursive;
+	font-size: xx-large;
+	font-stretch: ultra-condensed;
+	font-weight: bolder;
+	font-style: oblique;
+}

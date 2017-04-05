@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Account.java&apos; to &apos;MT06BankOpertaionApp/src/com.mahmud.MT06BankOperationAppPackage.classes&apos;&#x0D;&#x0A;- Original project: &apos;InheritanceAccountApp1&apos;&#x0D;&#x0A;- Destination element: &apos;MT06BankOpertaionApp/src/com.mahmud.MT06BankOperationAppPackage.classes&apos;&#x0D;&#x0A;- Original element: &apos;com.mahmud.InheritanceAccountApp1Package.classes.Account.java&apos;" description="Copy compilation unit" destination="=MT06BankOpertaionApp/src&lt;com.mahmud.MT06BankOperationAppPackage.classes" element1="/src&lt;com.mahmud.InheritanceAccountApp1Package.classes{Account.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1479822193981" units="1" version="1.0"/>
+</session>

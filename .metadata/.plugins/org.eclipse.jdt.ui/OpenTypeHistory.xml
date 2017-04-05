@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=IO18WalkFileApp/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.nio.file(SimpleFileVisitor.class[SimpleFileVisitor" modifiers="33" timestamp="1465222923233"/>
+<typeInfo handle="=MT17BlockBufferApp/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.nio(Buffer.class[Buffer" modifiers="1057" timestamp="1465222923233"/>
+<typeInfo handle="=MT17BlockBufferApp/src&lt;com.mahmud.MT17BlockBufferAppPackage.classes{Buffer.java[Buffer" modifiers="513" timestamp="1485765028611"/>
+<typeInfo handle="=MT17BlockBufferApp/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.util.concurrent(Executors$RunnableAdapter.class[RunnableAdapter" modifiers="24" timestamp="1465222923233"/>
+<typeInfo handle="=MT17BlockBufferApp/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1465222923233"/>
+<typeInfo handle="=MT18CircularBfrApp/src&lt;com.mahmud.MT18CircularBfrAppPackage.classes{Buffer.java[Buffer" modifiers="513" timestamp="1485864848271"/>
+<typeInfo handle="=MT19LockCondApp/src&lt;com.mahmud.MT19LockCondAppPackage.classes{Buffer.java[Buffer" modifiers="513" timestamp="1485883598322"/>
+<typeInfo handle="=CL11TimeCmprApp/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.util(Comparator.class[Comparator" modifiers="1537" timestamp="1465222923233"/>
+<typeInfo handle="=BS10MethodsApp/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.lang(Integer.class[Integer" modifiers="49" timestamp="1465222923233"/>
+<typeInfo handle="=BS10MethodsApp/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.lang(Number.class[Number" modifiers="1057" timestamp="1465222923233"/>
+<typeInfo handle="=BS11AccessApp/src&lt;com.mahmud.BS11AccessAppPackage.classes{Derived1.java[Derived1" modifiers="1" timestamp="1487318674100"/>
+<typeInfo handle="=BS11AccessApp/src&lt;com.mahmud.BS11AccessAppPackage.classes{Parent.java[Parent" modifiers="1" timestamp="1487314831859"/>
+<typeInfo handle="=BS16InterfaceExApp/src&lt;com.mahmud.BS16InterfaceExAppPackage{Mainrogram.java[Mainrogram[Relatable" modifiers="514" timestamp="1490077967614"/>
+<typeInfo handle="=BS17DefaultMthdApp/src&lt;com.mahmud.BS17DefaultMthdAppPackage{MainProgram.java[MainProgram[TimeClient" modifiers="514" timestamp="1490083357182"/>
+<typeInfo handle="=BS17DefaultMthdApp/src&lt;com.mahmud.BS17DefaultMthdAppPackage{MainProgram.java[MainProgram[HandleInvalidTimeZoneClient" modifiers="514" timestamp="1490083357182"/>
+<typeInfo handle="=GN08ComparatorApp/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1465222923233"/>
+<typeInfo handle="=BS18CardIntfApp/src&lt;com.mahmud.BS18CardIntfAppPackage.classes{Deck.java[Deck" modifiers="513" timestamp="1487690644082"/>
+<typeInfo handle="=BS20ViewMsgApp/src&lt;com.mahmud.BS20ViewMsgAppPackage{MainProgram.java[MainProgram[Base" modifiers="1" timestamp="1487763227945"/>
+<typeInfo handle="=BS20ViewMsgApp/src&lt;com.mahmud.BS20ViewMsgAppPackage{MainProgram.java[MainProgram[Derived1" modifiers="1" timestamp="1487763227945"/>
+<typeInfo handle="=OC003AbstractImpl/src&lt;com.mahmud.OC003AbstractImplPkg.classes{Car.java[Car" modifiers="1025" timestamp="1488560745969"/>
+<typeInfo handle="=OC003AbstractImpl/src&lt;com.mahmud.OC003AbstractImplPkg.classes{SUV.java[SUV" modifiers="1025" timestamp="1488560846052"/>
+<typeInfo handle="=OC009Static/src&lt;com.mahmud.OC009StaticPkg.Classes{Animal.java[Animal" modifiers="1" timestamp="1488812894893"/>
+<typeInfo handle="=OC019Ch01Q06/src&lt;com.mahmud.OC019Ch01Q06Pkg{Electronic.java[Electronic" modifiers="1" timestamp="1489469855065"/>
+<typeInfo handle="=OC019Ch01Q06/src&lt;com.mahmud.OC019Ch01Q06Pkg{Device.java[Device" modifiers="513" timestamp="1490435257651"/>
+<typeInfo handle="=OC021Ch01Q09/src&lt;com.mahmud.Ch01Q09Pkg{Hobbit.java[Hobbit" modifiers="1" timestamp="1489471304834"/>
+<typeInfo handle="=OC022Ch01Q10/src&lt;com.mahmud.OC022Ch01Q10Pkg{Electronic.java[Electronic" modifiers="1025" timestamp="1489472326258"/>
+<typeInfo handle="=OC022Ch01Q10/src&lt;com.mahmud.OC022Ch01Q10Pkg{Gadget.java[Gadget" modifiers="513" timestamp="1489471971591"/>
+<typeInfo handle="=OC024Ch02Q02/src&lt;com.mahmud.OC024Ch02Q02Pkg{Top.java[Top" modifiers="1" timestamp="1489474198636"/>
+<typeInfo handle="=OC025Ch02Q05/src&lt;com.mahmud.OC025Ch02Q05Pkg{Bird.java[Bird" modifiers="1" timestamp="1489474996431"/>
+<typeInfo handle="=OC025Ch02Q05/src&lt;com.mahmud.OC025Ch02Q05Pkg{Raptor.java[Raptor" modifiers="1" timestamp="1489474807419"/>
+<typeInfo handle="=OC026Ch02Q11/src&lt;com.mahmud.OC026Ch02Q11Pkg{Alpha.java[Alpha" modifiers="1" timestamp="1489475499968"/>
+<typeInfo handle="=OC027Ch02Q13/src&lt;com.mahmud.OC028Ch02Q13Pkg{Mammal.java[Mammal" modifiers="1" timestamp="1489476363090"/>
+<typeInfo handle="=OC034Ch06Q09/src&lt;com.mahmud.OC034Ch06Q09Pkg{Infinity.java[Infinity" modifiers="1" timestamp="1489524125984"/>
+<typeInfo handle="=OC038Ch06Q16/src&lt;com.mahmud.OC038Ch06Q16Pkg{Tire.java[Tire" modifiers="1" timestamp="1489626094187"/>
+<typeInfo handle="=OC018Try/C:\/Program Files\/Java\/jdk1.8.0_66\/jre\/lib\/rt.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1465222923233"/>
+<typeInfo handle="=OC039Sample5/src&lt;com.mahmud.OC039Sample5Pkg{Rideable.java[Rideable" modifiers="513" timestamp="1489712672531"/>
+<typeInfo handle="=OC040Sample7/src&lt;com.mahmud.OC040Sample7Pkg{Feline.java[Feline" modifiers="1" timestamp="1489713645482"/>
+<typeInfo handle="=OC044Q2_934/src&lt;OC044Q2_934Pkg.classes{SuperClass.java[SuperClass" modifiers="1" timestamp="1491143809736"/>
+</typeInfoHistroy>

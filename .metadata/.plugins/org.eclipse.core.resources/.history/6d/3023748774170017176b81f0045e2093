@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package OC044Q2_934Pkg;
+
+import OC044Q2_934Pkg.classes.SuperClass;
+
+/**
+ * @author Mahmudul Hasan Khan CSE
+ *
+ */
+public class SubClass extends SuperClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("\n\n");
+		
+		SuperClass obj1 = new SubClass();
+		
+		// SuperClass obj2 = new SubClass("Mahmud");
+		
+		// Compiler Error
+		// The constructor SubClass(String) is undefined
+		
+		// SuperClass obj3 = new SubClass("Mahmud", 1);
+	}
+
+}

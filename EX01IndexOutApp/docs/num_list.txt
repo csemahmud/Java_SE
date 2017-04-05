@@ -1,0 +1,11 @@
+Value at: 0 = 3
+Value at: 1 = 5
+Value at: 2 = 13
+Value at: 3 = 89
+Value at: 4 = 233
+Value at: 5 = 1597
+Value at: 6 = 28657
+Value at: 7 = 514229
+Value at: 8 = 433494437
+Value at: 9 = 2971215073
+Value at: 10 = 99194853094755497

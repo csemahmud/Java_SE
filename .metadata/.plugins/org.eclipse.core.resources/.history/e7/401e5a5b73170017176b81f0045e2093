@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package OC044Q2_934Pkg.classes;
+
+/**
+ * @author csema_000
+ *
+ */
+public class SuperClass {
+
+	/**
+	 * 
+	 */
+	public SuperClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
